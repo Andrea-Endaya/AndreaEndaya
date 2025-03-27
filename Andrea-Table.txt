@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<title> Table </title>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+			border collapse: collapse;
+		}
+		.andrea1 {
+			background-color: blue;
+			color: white;
+		}
+		.andrea2 {
+			background-color: yellow;
+			color: white;
+		}
+		
+	</style>
+	</head>
+
+	<body>
+		<table width = "80%">
+		<tr>
+			<th class ="andrea2", colspan ="6">STUDENT MARK SHEET </th>
+		</tr>
+		<tr>	
+			<th class ="andrea1"> NAME </th>
+			<th class ="andrea1"> MATH </th>
+			<th class ="andrea1"> SCIENCE </th>
+			<th class ="andrea1"> ENGLISH </th>
+		</tr>
+		<tr>
+			<td> Peter Pan </td>
+			<td> 85 </td>
+			<td> 87 </td>
+			<td> 88 </td>
+			<td> 92 </td>
+			<td> 88 </td>
+		</tr>
+		<tr>
+			<td> Pedro Penduko </td>
+			<td> 91 </td>
+
+	</body>
+	</html>
+			 
