@@ -1,0 +1,48 @@
+<!DOCTYPE HTNL>
+
+<html>
+<head>
+	<meta charset ="UTF-8">
+	<meta name "viewport" content="width=device=width, initial-scale=1.0">
+	<title> Page 1 </title>
+
+<style> 
+	.button {
+		border: none;
+        background-color: rgb(9, 255, 0);
+		color: white;
+		text-align: center;
+		font-size: 18 px;
+		transition-duration: 0.4s;
+		cursor: pointer;
+	}
+    .button1 {
+		border: none;
+        background-color: rgb(186, 238, 162);
+		color: white;
+		text-align: center;
+		font-size: 18 px;
+		transition-duration: 0.4s;
+		cursor: pointer;
+    }
+    .button2 {
+		border: none;
+        background-color: rgb(253, 134, 194);
+		color: white;
+		text-align: center;
+		font-size: 18 px;
+		transition-duration: 0.4s;
+		cursor: pointer;
+    }
+	
+</style>		
+</head>
+<body>
+	<h1> Page 3 </h1>
+    
+	<button onclick="window.location.href='page1.html ';" class="button" > Page 1 </button>
+	<button onclick="wimdow.location.href='page2.html ';" class="button1"> Page 2 </button>
+	<button onclick="window.location.href='page3.html ';" class="button2"> Page 3 </button>
+	
+</body>
+</html>
