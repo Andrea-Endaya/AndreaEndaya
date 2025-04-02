@@ -1,0 +1,32 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act1</title>
+     <style> 
+        .andrea {
+            border: none;
+            font-size: larger;
+            text-align: center;
+            cursor: pointer;
+        }
+        .andrea1 {
+            border:hwb(from grey h w b);
+            font-size: 18 px;
+            text-align: center;
+            cursor: pointer;
+            background-color: beige;
+        }
+     </style>   
+     <script>
+        function changeText ()   {
+            document.getElementById("textToChange").innerHTML = "Magic Sarap";
+         } 
+      </script>
+  </head>
+  <body>
+        <p id="textToChange" class="andrea">Hi! pindutin moko para makita ang magic </p>
+        <button onclick="changeText()" class="andrea1"> Click to change text </button> 
+  </body> 
+  </html>
