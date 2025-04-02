@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Act2</title>
+
+	<script>
+		function changeStyle() {
+			let element = document.getElementById ("styleElement");
+			element.style.color = "black" ;
+            element.style.border = "none";
+			element.style.backgroundColor = "aquamarine";
+			element.style.fontSize = "49 px";
+			element.style.padding = "15 px";
+			element.style.borderRadius = "10 px";
+            element.style.textAlign = "center";
+        }
+        
+	</script>
+</head>
+<body>
+	<p id="styleElement" > This is the original style of the paragraph. </p>
+	<button onclick="changeStyle()"> Click to Change Style  </button>
+   
+</body>
+</html>               
